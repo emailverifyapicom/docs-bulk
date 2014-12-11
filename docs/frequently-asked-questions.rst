@@ -84,7 +84,7 @@ The hard bit is dealing with mail services that are intrinsically configured to 
 
 `emailverifyapi.com`_'s strength in dealing with the \"hard bit\" of email verification comes from years of experience in doing email verification together with our complete ownership of our :term:`SMTP` verification software stack together with an extensive cloud based infrastructure. That's why `emailverifyapi.com`_ can do the \"hard bits\" best and offer outstanding coverage on the more difficult domains such as Yahoo and Hotmail.
 
-Can I get blacklisted using this API?
+Can I get blacklisted using this service?
 -------------------------------------
 No. It's `emailverifyapi.com`_ infrastructure that does the work.
 
@@ -105,7 +105,7 @@ This method of determining email address validity works in >99% cases. However, 
 
 For example, say we take an email address of "this.seems.to.verify@hotmail.com" to send to. We are sending from a fictitious email address "my.sending.account@gmail.com".
 
-"this.seems.to.verify@hotmail.com" reports with status code of "OK" from the email verification :term:`API`. However, when you send an email to "this.seems.to.verify@hotmail.com", the email bounces. 
+"this.seems.to.verify@hotmail.com" reports with status code of "OK" from the email verification service. However, when you send an email to "this.seems.to.verify@hotmail.com", the email bounces. 
 Further inspection of the bounced email Non Delivery Report (NDR) headers show something like the following:
 
 :: 
