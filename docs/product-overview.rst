@@ -1,4 +1,5 @@
 .. _emailverifyapi.com: https://upload.emailverifyapi.com
+.. _Microsoft Trustworthy Computing: http://www.microsoft.com/about/twc/en/us/default.aspx
 
 Welcome to Bulk Email Verification
 ==================================
@@ -35,10 +36,19 @@ Product Description
 
 With unrivalled coverage in all areas (including traditionally hard to verify email addresses such as Hotmail and Yahoo), `emailverifyapi.com`_ is the natural choice for customers requiring good coverage in their applications for both :term:`B2B` and :term:`B2C` email addresses.
 
-Possible Applications for Email Address Verification API
---------------------------------------------------------
- * 
+Reliable and Secure
+-------------------
+Security of your data is our primary concern. To ensure security, we implement:
+ * Robust data security implemented using `Microsoft Trustworthy Computing`_ guidelines.
+ * Logical security of your data by allocation of your own, dedicated database. Any data that you upload goes into your database and is not visible by anyone else.
+ * Physical security in secure US and UK data centers.
+ * Once you delete a list from our system, it is wiped completely off our servers.
+Ultimately, no one gets access to your data except you.
+
+As well as the assurance of security, we appreciate that you want reliability. That’s why, as a customer, you receive priority support by phone and email. In the unlikely event of a technical problem, our promise to you is to resolve your issue within 24 hours.
+
+Our systems include built in exception and error alerting. This means that, in the unlikely event that you need to call us, we’ll already know about the problem and be well on the way to fixing it.
 
 How To Get Started
 ------------------
-To get started `create a new account <https://upload.emailverifyapi.com/index.php>`_.
+To get started `create a new account <https://upload.emailverifyapi.com/index.php>`_ and upload your list.

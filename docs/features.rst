@@ -40,19 +40,6 @@ Disposable Email Address Detection
 ----------------------------------
 Detect and eliminate :term:`DEA`.
 
-Common Typo Handling
---------------------
-`emailverifyapi.com`_ also searches for common typos and suggest 
-alternatives. E.g. jim99@hotmail.cm is more likely to be jim99@hotmail.com 
-so `emailverifyapi.com`_ will validate what the user has entered, 
-but provide you with the more likely alternative suggestion too.
-
-Thoughtful Versioning
----------------------
-Endpoints are \"versioned\". This means that `emailverifyapi.com`_ 
-can continue to release new functionality without \"breaking\" 
-existing clients committed to integrating with our systems on legacy endpoints.
-
 What it does
 ------------
 `emailverifyapi.com`_ is used to check email addresses in real-time. 

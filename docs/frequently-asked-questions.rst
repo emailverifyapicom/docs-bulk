@@ -3,6 +3,59 @@
 Frequently Asked Questions
 ==========================
 
+How fast is it?
+---------------
+Please allow up to 24 hours for a list to process.
+
+How do I get emails into the system?
+------------------------------------
+Upload any text (.txt) or CSV (.csv) file that contains email addresses. This includes Excel (export as .csv), Outlook (export as .CSV) or any other application that can support exporting as text (almost all applications support this). Your files can contain extra data fields, we simply append our results to the end of your existing file.
+
+How do I get results out of the system?
+---------------------------------------
+You can export results in the same format that you imported them.
+
+Are there any emails that can’t be checked?
+-------------------------------------------
+For servers that we know give problems, such as those that give false positives (catch-all), we flag the email address appropriately.
+
+How often should I check email addresses?
+-----------------------------------------
+For large lists (i.e. > 10,000), we suggest checking every 2 weeks. Smaller lists can be checked monthly
+
+Email addresses are always changing. People change email addresses as they (for example):
+ * Move Internet providers
+ * Move to a new employer
+ * Change name (e.g. after getting married)
+
+If your business relies on email lists for its marketing, it’s important that you keep the lists current and “clean” to maximize your target potential and reduce the overheads associated with managing too many “bounced” emails. This is why we recommend frequent checking.
+
+How do I sign up?
+-----------------
+To get started `create a new account <https://upload.emailverifyapi.com/index.php>`_ and upload your list.
+
+How secure is my data?
+----------------------
+Very. We take your security and confidentiality seriously. We know that your email lists are confidential and we do everything we can to make sure that they stay that way!
+
+Your data is held securely in US and UK data centers. As well as physical security of “locked” server rooms, we use strong password security in our software services. This means that no-one other than you can see your data.
+
+Also, if you choose to cancel your plan at any time, we undertake to destroy / delete your data so that it cannot be retrieved or viewed by any other parties.
+
+Do you share my email lists or use them in any other way?
+---------------------------------------------------------
+No. No-one other than you has access to your data / email lists.
+
+What browsers do you support?
+-----------------------------
+Generally, anything that is younger (as of December 2014) than 7 years old. Including:
+ * Safari
+ * Internet Explorer (version 7+)
+ * Firefox (version 2+)
+ * Chrome
+ * Opera
+As this is an Internet based service, it means that it runs happily on any operating system including Mac, PC, Linux, Unix etc.
+
 Can it do Hotmail?
 ------------------
 Yes.
@@ -106,3 +159,13 @@ This behaviour occasionally (particularly from Hotmail) is seen in a small amoun
 
 The majority (>99%) of email verification status versus mail send is consistent. However there are some edge cases caused by system faults in the mail service providers themselves. 
 For these small number of cases, there is nothing that can be done at the email verification stage.
+
+How do I cancel a subscription?
+-------------------------------
+For pay as you go accounts, the account is free and you just pay when you need it.
+
+For subscription plans, you simply need to contact us via the support button in your account dashboard, and your cancellation will take effect at the end of the month. Please note that subscription plans have a minimum 2 month period, after that you can cancel at any time.
+
+Our service is so good that we hope that you won’t need to cancel! However, if you do, we are proud of our simple cancellation process. Unlike many other companies, there are no hassles with fine print and tricky notice periods.
+
+Once you’ve cancelled your service, we’ll disable your account and make sure that all your data is securely disposed of (deleted).

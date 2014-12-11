@@ -22,12 +22,27 @@ Main Status Codes
 	
 Additional Status Codes
 ^^^^^^^^^^^^^^^^^^^^^^^
+.. tip::	Some fault conditions are temporary. Retrying verification at a later time will usually result in a positive response from mail servers.
+
 :None:
 	No additional information is available.
 	
 :AtSignNotFound:
 	The required '@' sign is not found in email address.
 
+:CatchAllConnectionFailure:
+	The secondary catch all verification failed upon connection.
+	
+:CatchAllValidationTimeout:
+	The secondary catch all validation timed out.
+	
+:DnsConnectionFailure:
+	The DNS connection failed.
+	
+:DnsQueryTimout:
+	The DNS service failed to respond (timeout). A typical example of this status code
+	is when a DNS server on the target infrastructure is configured incorrectly.
+	
 :DomainIsInexistent:
 	The domain (i.e. the bit after the '@' character) defined in the email address 
 	does not exist, according to :term:`DNS` records.
@@ -49,6 +64,34 @@ Additional Status Codes
 	addresses will ever be read. :abbr:`DEA(Disposable Email Address)` 
 	addresses should not be regarded as valid for email send purposes 
 	as it is unlikely that messages sent to :term:`DEA` addresses will ever be read.
+
+:DomainPartCompliancyFailure:
+	The domain part compliancy failed.
+	
+:DoubleDotSequence:
+	The email addresses domain contained double dots.
+	
+:IpBlockDetected: 
+	An IP block has been detected.
+	
+:InvalidAddressLength:
+	The email address is an invalid length.
+	
+:InvalidCharacterInSequence:
+	The email address contains an invalid character.
+	
+:InvalidFoldingWhiteSpaceSequence:
+	The email address contains a folding white space.
+	
+:InvalidLocalPartLength:
+	The email address contains an invalid 
+	`local  part <http://tools.ietf.org/html/rfc3696#section-3>`_ length.
+	
+:InvalidWordBoundaryStart:
+	http://tools.ietf.org/html/rfc3696#section-3
+	
+:LocalSenderAddressRejected:
+	The local sender address was rejected.
 	
 :MailboxFull:
 	The mailbox is full.
@@ -68,11 +111,22 @@ Additional Status Codes
 	
 	100% confidence that the mail box does not exist.
 	
+:MailboxTemporarilyUnavaible:
+	The mail server is operating :term:`Grey Listing`. Whilst we endeavour to verify
+	grey listed addresses, sometimes it is not possible whilst still offering timely
+	verification results.
+	
 :NoMxServersFound:
 	There are no mail servers defined for this domain, according to :term:`DNS`.
 	
 	Email addresses cannot be valid if there are no email servers 
 	defined in :term:`DNS` for the domain.
+
+:OperationCanceled:
+	The operation was cancelled.
+	
+:ProxyConnectionTimeout:
+	The proxy timed out.
 	
 :ServerDoesNotSupportInternationalMailboxes:
 	The server does not support international mailboxes.
@@ -97,30 +151,45 @@ Additional Status Codes
 	domain to a central email box for manual inspection. Catch all 
 	configured servers cannot respond to requests for email address verification.
 	
+:SmtpConnectionFailure:
+	The TCP connection to the target mail server failed.
+	
+:SmtpConnectionShutdown:
+	The target mail server prematurely terminated the connection.
+	
+:SmtpConnectionShutdown:
+	A timeout occurred whilst waiting for a connection to the target mail server.
+	
+:SmtpConnectionRefused:
+	The SMTP connection was refused by the remote server. This status code applies
+	to all Office 365 mail server, stopping verification, as these mail servers	
+	all operate a catch-all policy.
+	
 :Success:
 	Successful verification.
 	
 	100% confidence that the mail box exists.
+
+:TcpSocketUnavailable:
+	The TCP socket is unavailable for date exchange.
 	
 :TooManyAtSignsFound:
 	Too many '@' signs found in email address.
 
 	Only one '@' character is allowed in email addresses.
 	
+:UnableToBindToLocalIpAddress:
+	Cannot bind local IP endpoint specified.
+	
+:UnexpectedQuotedPairSequence:
+	http://tools.ietf.org/html/rfc3696#section-3
+
+:UnhandledException:
+	Transient service fault.
+
 :Unknown:
 	The reason for the verification result is unknown.
 	
-:TransientNetworkFault:
-	A temporary network fault occurred during verification. Please try again later.
-
-	Verification operations on remote mail servers can sometimes fail for a number 
-	of reasons such as loss of network connection, remote servers timing out etc.
-	
-	One other possible cause of a temporary fault is :term:`Grey Listing`.
-
-	These conditions are usually temporary. Retrying verification at a later time 
-	will usually result in a positive response from mail servers.
-
 :PossibleSpamTrapDetected:
 	A possible spam trap email address or domain has been detected.
 

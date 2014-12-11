@@ -1,5 +1,6 @@
 Welcome to Bulk Email Verification
 ==================================
+Our email validation service will help your business reduce costs by eliminating bad email addresses from your information systems. All you need to do is upload your email list and wait for the results to come in.
 
 Product Overview
 ----------------
