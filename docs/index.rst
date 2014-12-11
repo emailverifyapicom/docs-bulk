@@ -8,6 +8,23 @@ Product Overview
 	
 	product-overview
 	
+Features
+--------
+
+..	toctree::
+	:maxdepth: 2
+	
+	features
+	
+FAQs
+----
+
+.. 	toctree::
+	:maxdepth: 2
+	
+	frequently-asked-questions
+
+	
 Status Codes
 ------------
 
@@ -15,3 +32,11 @@ Status Codes
 	:maxdepth: 2
 	
 	status-codes
+	
+Glossary
+--------
+
+.. 	toctree::
+	:maxdepth: 2
+	
+	glossary
