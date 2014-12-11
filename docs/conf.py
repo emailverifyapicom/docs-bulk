@@ -44,7 +44,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'BulkEmailVerification'
+project = 'Bulk Email Verification'
 copyright = '2014, emailverifyapi.com'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -61,7 +61,7 @@ release = '1.0.0'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = None
+#language = None
 
 # There are two options for replacing |today|: either, you set today to some
 # non-false value, then it is used:
@@ -216,7 +216,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'BulkEmailVerification.tex', 'BulkEmailVerification Documentation',
+  ('index', 'BulkEmailVerification.tex', 'Bulk Email Verification Documentation',
    'emailverifyapi.com', 'manual'),
 ]
 
@@ -246,7 +246,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'bulkemailverification', 'BulkEmailVerification Documentation',
+    ('index', 'bulkemailverification', 'Bulk Email Verification Documentation',
      ['emailverifyapi.com'], 1)
 ]
 
@@ -260,7 +260,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'BulkEmailVerification', 'BulkEmailVerification Documentation',
+  ('index', 'BulkEmailVerification', 'Bulk Email Verification Documentation',
    'emailverifyapi.com', 'BulkEmailVerification', 'One line description of project.',
    'Miscellaneous'),
 ]
