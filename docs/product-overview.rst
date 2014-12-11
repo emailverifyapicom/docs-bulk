@@ -1,9 +1,6 @@
 .. _emailverifyapi.com: https://upload.emailverifyapi.com
 .. _Microsoft Trustworthy Computing: http://www.microsoft.com/about/twc/en/us/default.aspx
 
-Welcome to Bulk Email Verification
-==================================
-
 Product Overview
 ================
 
