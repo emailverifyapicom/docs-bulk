@@ -22,8 +22,6 @@ Main Status Codes
 	
 Additional Status Codes
 ^^^^^^^^^^^^^^^^^^^^^^^
-.. tip::	Some fault conditions are temporary. Retrying verification at a later time will usually result in a positive response from mail servers.
-
 :None:
 	No additional information is available.
 	

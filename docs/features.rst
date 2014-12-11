@@ -42,7 +42,7 @@ Detect and eliminate :term:`DEA`.
 
 What it does
 ------------
-`emailverifyapi.com`_ is used to check email addresses in real-time. 
+`emailverifyapi.com`_ is used to check email addresses in bulk. 
 Not only are syntax and domain checked, but that the user mailbox 
 is available too. This is the only way to know for sure if an email address is valid.
 
