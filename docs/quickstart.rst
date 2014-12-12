@@ -11,7 +11,7 @@ Please follow the steps below in sequence:
 
 2) Upload File
 --------------
-Navigate to the 'Upload a file' tab. You can drag and drop or manually upload any .csv or .txt file.
+Navigate to the 'Upload a file' tab. You can drag and drop or manually upload any :abbr:`.csv(Comman-Seperated Values)`  or :abbr:`.txt(Text File)` file.
 
 This file can contain multiple data fields, not just email addresses. Our system will pick out the email address field automatically and preserve the rest of your data.
 
