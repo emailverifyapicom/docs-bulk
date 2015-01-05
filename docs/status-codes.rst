@@ -25,6 +25,8 @@ Additional Status Codes
 :None:
 	No additional information is available.
 	
+	This status differs from other additional status codes as it should not be retried (the result will not change).
+	
 :AtSignNotFound:
 	The required '@' sign is not found in email address.
 
@@ -155,12 +157,12 @@ Additional Status Codes
 :SmtpConnectionShutdown:
 	The target mail server prematurely terminated the connection.
 	
-:SmtpConnectionShutdown:
+:SmtpConnectionTimeout:
 	A timeout occurred whilst waiting for a connection to the target mail server.
 	
 :SmtpConnectionRefused:
 	The SMTP connection was refused by the remote server. This status code applies
-	to all Office 365 mail server, stopping verification, as these mail servers	
+	to all :term:`Office 365` mail server, stopping verification, as these mail servers	
 	all operate a catch-all policy.
 	
 :Success:
