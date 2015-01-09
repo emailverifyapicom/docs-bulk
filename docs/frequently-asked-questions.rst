@@ -54,6 +54,7 @@ Generally, anything that is younger (as of December 2014) than 7 years old. Incl
  * Firefox (version 2+)
  * Chrome
  * Opera
+ 
 As this is an Internet based service, it means that it runs happily on any operating system including Mac, PC, Linux, Unix etc.
 
 Can it do Hotmail?
@@ -85,7 +86,7 @@ The hard bit is dealing with mail services that are intrinsically configured to 
 `emailverifyapi.com`_'s strength in dealing with the \"hard bit\" of email verification comes from years of experience in doing email verification together with our complete ownership of our :term:`SMTP` verification software stack together with an extensive cloud based infrastructure. That's why `emailverifyapi.com`_ can do the \"hard bits\" best and offer outstanding coverage on the more difficult domains such as Yahoo and Hotmail.
 
 Can I get blacklisted using this service?
--------------------------------------
+-----------------------------------------
 No. It's `emailverifyapi.com`_ infrastructure that does the work.
 
 Will anyone know that I am verifying their email address?
@@ -106,7 +107,7 @@ This method of determining email address validity works in >99% cases. However, 
 For example, say we take an email address of "this.seems.to.verify@hotmail.com" to send to. We are sending from a fictitious email address "my.sending.account@gmail.com".
 
 "this.seems.to.verify@hotmail.com" reports with status code of "OK" from the email verification service. However, when you send an email to "this.seems.to.verify@hotmail.com", the email bounces. 
-Further inspection of the bounced email Non Delivery Report (NDR) headers show something like the following:
+Further inspection of the bounced email :abbr:`NDR(Non Delivery Report)` headers show something like the following:
 
 :: 
 
@@ -169,3 +170,14 @@ For subscription plans, you simply need to contact us via the support button in 
 Our service is so good that we hope that you won’t need to cancel! However, if you do, we are proud of our simple cancellation process. Unlike many other companies, there are no hassles with fine print and tricky notice periods.
 
 Once you’ve cancelled your service, we’ll disable your account and make sure that all your data is securely disposed of (deleted).
+
+I have received *x* percentage of bounce backs using emails you verified
+------------------------------------------------------------------------
+If you used our service and you experienced a large number of :abbr:`NDRs(Non Delivery Reports)` using email addresses that were verified 
+OK by our service there may have been an issue with your Email Service Provider (ESP).
+
+Due nature of the verification process a mail box reported as OK can definitely accept incoming emails. This is due to a target mail server 
+existing, the server not being a catch all and the mail box accepting incoming mail.
+
+If you experience a bounce back with your validated OK email addresses, there has likely been a fault with your ESP or on the target mail 
+server. We are happy to work with customers and their ESPs in order to resolve such issues.
