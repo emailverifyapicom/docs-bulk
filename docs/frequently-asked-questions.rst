@@ -173,11 +173,11 @@ Once you’ve cancelled your service, we’ll disable your account and make sure
 
 I have received *x* percentage of bounce backs using emails you verified
 ------------------------------------------------------------------------
-If you used our service and you experienced a large number of :abbr:`NDRs(Non Delivery Reports)` using email addresses that were verified 
-OK by our service there may have been an issue with your Email Service Provider (ESP).
+If you experienced a large number of :abbr:`NDRs(Non Delivery Reports)` using email addresses that were verified OK by our service there 
+may have been an issue with your Email Service Provider (ESP) or the target mail server.
 
-Due nature of the verification process a mail box reported as OK can definitely accept incoming emails. This is due to a target mail server 
-existing, the server not being a catch all and the mail box accepting incoming mail.
+Due to the nature of our verification process a mail box reported as OK can definitely accept incoming emails. This is due to a target 
+mail server existing, the server not being a catch all and the mail box accepting incoming mail.
 
 If you experience a bounce back with your validated OK email addresses, there has likely been a fault with your ESP or on the target mail 
 server. We are happy to work with customers and their ESPs in order to resolve such issues.
